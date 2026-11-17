@@ -19,7 +19,7 @@ const TRIPS = {
     level: 'All levels', waves: 'Point breaks', stay: 'Surf camp', included: 'Surf sessions, accommodation, breakfast and local transport' },
   bali:      { name: 'Bali Wave Culture',    city: 'Bali',       meta: '🇮🇩 INDONESIA · ASIA',   days: 10, price: 1390, months: [4,5,6,7,8,9,10],     label: 'Apr – Oct',
     description: 'Explore Bali’s tropical coastline, discover new surf spots and experience the island’s unique surf lifestyle with local guides.',
-    level: 'Intermediate', waves: 'Reef breaks', stay: 'Tropical surf villa', included: 'Surf coaching, accommodation, equipment and local transfers' },
+    level: 'Advance', waves: 'Reef breaks', stay: 'Tropical surf villa', included: 'Surf coaching, accommodation, equipment and local transfers' },
   costarica: { name: 'Pacific Wild',         city: 'Costa Rica', meta: '🇨🇷 COSTA RICA · AMERICAS', days: 9, price: 1250, months: [12,1,2,3,4],       label: 'Dec – Apr',
     description: 'Surf warm Pacific waters, explore lush landscapes and discover the laid-back lifestyle of Costa Rica’s coastline.',
     level: 'All levels', waves: 'Beach breaks', stay: 'Eco surf lodge', included: 'Surf sessions, accommodation, breakfast and local transport' },
