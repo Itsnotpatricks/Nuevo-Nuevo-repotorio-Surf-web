@@ -1,8 +1,6 @@
 
 
 
-    AOS.init({duration:2000});
-
 
 const $ = (id) => document.getElementById(id);
 const ALL_YEAR = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
@@ -87,13 +85,13 @@ let bookTrip = () => {};
   window.matchMedia('(max-width: 900px)').addEventListener('change', (e) => { if (!e.matches) set(false); });
 })();
 
-if (window.Typed && $('typed')) {
-  new Typed('#typed', {
-    strings: ['Find your wave. Find your people.', 'Explore more. Surf further.', 'Go beyond the shoreline.',
-              'Good vibes. Better tides.', 'Ride more. Connect more.'],
-    loop: true, typeSpeed: 90, backSpeed: 80, backDelay: 700, smartBackspace: true
-  });
-}
+
+
+
+
+
+
+
 
 (() => {
   const tabs = document.querySelectorAll('.trips .tap');
@@ -459,3 +457,31 @@ const CREW = {
   renderAll();
 })();
 
+
+
+//INNIT//
+
+if (window.Typed && $('typed')) {
+  new Typed('#typed', {
+   strings:  ['Find your wave. Find your people.', 'Explore more. Surf further.', 'Go beyond the shoreline.','Good vibes. Better tides.', 'Ride more. Connect more.'],
+    loop: true, 
+    typeSpeed: 90, 
+    backSpeed: 80, 
+    backDelay: 700, 
+  });
+}
+
+
+if (window.AOS) {
+  AOS.init({
+    duration: 2000,
+    once: true, 
+    offset: 100,
+  });
+}
+ 
+
+//SIMPLEPARLOCO//
+
+ var image = document.getElementsByClassName('thumbnail');
+new SimpleParallax(image);
