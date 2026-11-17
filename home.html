@@ -1,0 +1,1594 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Waveroom / Surf Trips</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="Css /style.css">
+  
+
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+
+   <main class="page">
+
+
+
+    <header class="nav">
+
+     <a class="brand" href="#">
+      <span class="brand-mark">≋</span>
+      Waveroom
+     </a>
+
+      <nav class="nav-links" id="navLinks">
+       <a href="#trips">Trips</a>
+       <a href="#Crews">Crew</a>
+       <a href="#why">The feeling</a>
+       <a href="#gallery">Gallery</a>
+       <a href="#reviews">Reviews</a>
+       <a href="#shop">Shop</a>
+       <a href="#FAQ">FAQ</a>
+       <a href="#booking">Booking</a>
+      </nav>
+
+      <a class="nav-cta" href="#booking">
+       Plan your trip ↗
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+       ☰
+       </button>
+
+    </header>
+
+
+
+    <section class="hero">
+      <video class="hero-vid" autoplay muted loop playsinline>
+       <source src="surfvid.mp4" type="video/mp4">
+       </video>
+
+      <div class="hero-title" >
+        SURF<span class="star">*</span>TRIPS
+      </div>
+
+    
+
+
+
+
+
+      <div class="hero-bottom">
+
+        <div class="rating">
+
+         <div class="stars">
+          ★★★★★ <span>4.5/5</span>
+         </div>
+
+          THE SURF TRIP CLUB
+
+        </div>
+
+       <h1> <span id="typed"></span>
+
+          
+        </h1>
+
+            <a class="btn" href="#trips">
+              Explore surf trips ↗
+            </a>
+      </div>
+
+    </section>
+
+
+
+<section class="trips" id="trips">
+
+  <div class="section-trip">
+    <div>
+      <div class="sub">01 / Find your next wave</div>
+      <h2>Somewhere new.<br>Something unforgettable.</h2>
+    </div>
+
+    <p class="section-trip-intro">
+      From European coastlines to tropical surf escapes.
+      Find your destination, meet your crew and catch your next wave.
+    </p>
+  </div>
+
+
+  <div class="trip-tabs" role="group" aria-label="Filter surf trips">
+
+    <button class="tap active" data-trip-filter="all" aria-pressed="true">
+      All destinations
+    </button>
+
+    <button class="tap" data-trip-filter="europe" aria-pressed="false">
+      Europe
+    </button>
+
+    <button class="tap" data-trip-filter="africa" aria-pressed="false">
+      Africa
+    </button>
+
+    <button class="tap" data-trip-filter="asia" aria-pressed="false">
+      Asia
+    </button>
+
+    <button class="tap" data-trip-filter="americas" aria-pressed="false">
+      Americas
+    </button>
+
+  </div>
+
+
+  <div class="trip-grid">
+
+
+    <article class="trip-card" data-trip-region="europe">
+
+      <div class="trip-image">
+        <img src="Photos Trips/portugal.png" alt="Surf coast in Ericeira">
+
+        <span class="tag">🇵🇹 Portugal</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>EUROPE · PORTUGAL</span>
+          <span>BEGINNER FRIENDLY</span>
+        </div>
+
+        <h3>Ericeira Escape</h3>
+
+        <p>
+          Discover Portugal's surf capital. Beautiful beaches,
+          relaxed coastal villages and waves for every level.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 7 days</span>
+          <span>● Beginner</span>
+          <span>♧ Beach breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €890 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="ericeira">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+
+    <article class="trip-card" data-trip-region="europe">
+
+      <div class="trip-image">
+        <img src="Photos Trips/france.png" alt="Biarritz surf beach">
+
+        <span class="tag">🇫🇷 France</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>EUROPE · FRANCE</span>
+          <span>INTERMEDIATE</span>
+        </div>
+
+        <h3>Biarritz Sessions</h3>
+
+        <p>
+          Experience the French Basque coast, powerful Atlantic
+          swells and a unique surf culture.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 6 days</span>
+          <span>● Intermediate</span>
+          <span>♧ Beach breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €950 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="biarritz">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+
+    <article class="trip-card" data-trip-region="africa">
+
+      <div class="trip-image">
+        <img src="Photos Trips/marroco.png" alt="Taghazout coastline in Morocco">
+
+        <span class="tag">🇲🇦 Morocco</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>AFRICA · MOROCCO</span>
+          <span>ALL LEVELS</span>
+        </div>
+
+        <h3>Taghazout Adventure</h3>
+
+        <p>
+          Long right-hand waves, sunny days and laid-back
+          Moroccan coastal life.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 8 days</span>
+          <span>● All levels</span>
+          <span>♧ Point breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €790 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="taghazout">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+
+    <article class="trip-card" data-trip-region="asia">
+
+      <div class="trip-image">
+        <img src="Photos Trips/bali.png" alt="Bali tropical surf coastline">
+
+        <span class="tag">🇮🇩 Indonesia</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>ASIA · INDONESIA</span>
+          <span>INTERMEDIATE</span>
+        </div>
+
+        <h3>Bali Wave Culture</h3>
+
+        <p>
+          Explore tropical coastlines, discover new surf spots
+          and experience the island's surf lifestyle.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 10 days</span>
+          <span>● Intermediate</span>
+          <span>♧ Reef breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €1,390 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="bali">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+
+     <article class="trip-card" data-trip-region="americas">
+
+      <div class="trip-image">
+        <img src="Photos Trips/costarica.png" alt="Costa Rica tropical surf beach">
+
+        <span class="tag">🇨🇷 Costa Rica</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>AMERICAS · COSTA RICA</span>
+          <span>ALL LEVELS</span>
+        </div>
+
+        <h3>Pacific Wild</h3>
+
+        <p>
+          Surf warm Pacific waters, explore lush landscapes
+          and discover Costa Rica's relaxed lifestyle.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 9 days</span>
+          <span>● All levels</span>
+          <span>♧ Beach breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €1,250 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="costarica">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+
+     <article class="trip-card" data-trip-region="asia">
+
+      <div class="trip-image">
+        <img src="Photos Trips/srilanka.png" alt="Sri Lanka surf coastline">
+
+        <span class="tag">🇱🇰 Sri Lanka</span>
+      </div>
+
+      <div class="trip-info">
+
+        <div class="trip-meta">
+          <span>ASIA · SRI LANKA</span>
+          <span>BEGINNER FRIENDLY</span>
+        </div>
+
+        <h3>Island Flow</h3>
+
+        <p>
+          A tropical surf escape with warm water, palm-lined
+          beaches and a welcoming local surf scene.
+        </p>
+
+        <div class="trip-details">
+          <span>◷ 8 days</span>
+          <span>● Beginner</span>
+          <span>♧ Beach breaks</span>
+        </div>
+
+        <div class="trip-foot">
+
+          <div class="price">
+            €1,090 <small>/ person</small>
+          </div>
+
+          <a href="#tripModal" class="text-link trip-detail" data-trip="srilanka">
+            Explore trip ↗
+          </a>
+
+        </div>
+
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+
+
+<div
+  class="trip-modal"
+  id="tripModal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="tripModalName"
+  aria-hidden="true"
+>
+
+  <div class="trip-modal-content">
+
+    <button class="trip-modal-close" id="tripClose" aria-label="Close">
+      ×
+    </button>
+
+    <div class="trip-modal-image">
+      <img id="tripModalImage" src="" alt="">
+    </div>
+
+    <div class="trip-modal-info">
+
+      <span class="trip-modal-meta" id="tripModalMeta"></span>
+
+      <h2 id="tripModalName"></h2>
+
+      <p id="tripModalDescription"></p>
+
+      <div class="trip-modal-facts" id="tripModalFacts"></div>
+
+      <div class="trip-modal-bottom">
+
+        <div class="price" id="tripModalPrice"></div>
+
+        <button id="tripBook" type="button">
+          Book this trip ↗
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<section class="crew" id="crew">
+
+  <div class="section-head">
+    <div>
+      <div class="sub">02 / Meet your instructors</div>
+      <h2>Surf with people<br>who live for it.</h2>
+    </div>
+
+    <p class="section-intro">
+      Four expert coaches from four countries. They speak your language,
+      know the local breaks and will get you riding better.
+    </p>
+  </div>
+
+  <div class="trip-tabs crew-tabs" role="group" aria-label="Filter instructors">
+    <button class="crew-tab active" data-crew-filter="all" aria-pressed="true">All instructors</button>
+    <button class="crew-tab" data-crew-filter="beginner" aria-pressed="false">Beginner</button>
+    <button class="crew-tab" data-crew-filter="intermediate" aria-pressed="false">Intermediate</button>
+    <button class="crew-tab" data-crew-filter="advanced" aria-pressed="false">Advanced</button>
+  </div>
+
+  <div class="trip-grid crew-grid">
+
+    <article class="trip-card crew-card" data-level="beginner">
+      <div class="trip-image crew-photo">
+        <img src="Photos crew/surfermen2.png" alt="Inês Carvalho">
+        <span class="tag">🇵🇹 Portugal</span>
+      </div>
+
+      <div class="trip-info">
+        <div class="trip-meta">
+          <span>Europe · Portugal</span>
+          <span>Beginner coach</span>
+        </div>
+
+        <h3>Inês Carvalho</h3>
+
+        <p>
+          Patient, positive and always first to the beach.
+          Inês has taught over a thousand first-timers to stand up.
+        </p>
+
+        <div class="crew-langs">
+          <span>Portuguese</span>
+          <span>English</span>
+          <span>Spanish</span>
+          <span>French</span>
+        </div>
+
+        <div class="trip-foot">
+          <div class="price">12 yrs <small>/ coaching</small></div>
+          <a href="#crewModal" class="text-link crew-detail" data-crew="ines">Meet Inês ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="trip-card crew-card" data-level="intermediate">
+      <div class="trip-image crew-photo">
+        <img src="Photos crew/surfer 3.png" alt="Philippe Garnier">
+        <span class="tag">🇫🇷 France</span>
+      </div>
+
+      <div class="trip-info">
+        <div class="trip-meta">
+          <span>Europe · France</span>
+          <span>Intermediate coach</span>
+        </div>
+
+        <h3>Philippe Garnier</h3>
+
+        <p>
+          Born on France's Atlantic coast, Philippe grew up surfing
+          the powerful waves of the Basque Country.
+        </p>
+
+        <div class="crew-langs">
+          <span>French</span>
+          <span>English</span>
+          <span>Spanish</span>
+        </div>
+
+        <div class="trip-foot">
+          <div class="price">15 yrs <small>/ coaching</small></div>
+          <a href="#crewModal" class="text-link crew-detail" data-crew="philippe">Meet Philip ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="trip-card crew-card" data-level="advanced">
+      <div class="trip-image crew-photo">
+        <img src="Photos crew/surfer4.png" alt="Ali Amrani">
+        <span class="tag">🇲🇦 Morocco</span>
+      </div>
+
+      <div class="trip-info">
+        <div class="trip-meta">
+          <span>Africa · Morocco</span>
+          <span>Point-break guide</span>
+        </div>
+
+        <h3>Ali Amrani</h3>
+
+        <p>
+          Raised on Morocco's long right-handers.
+          Youssef coaches line choice, speed and timing.
+        </p>
+
+        <div class="crew-langs">
+          <span>Arabic</span>
+          <span>French</span>
+          <span>English</span>
+          <span>Spanish</span>
+        </div>
+
+        <div class="trip-foot">
+          <div class="price">10 yrs <small>/ coaching</small></div>
+          <a href="#crewModal" class="text-link crew-detail" data-crew="youssef">Meet Ali ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="trip-card crew-card" data-level="advanced">
+      <div class="trip-image crew-photo">
+        <img src="Photos crew/surfermen1.png" alt="Jake Sullivan">
+        <span class="tag">🇦🇺 Australia</span>
+      </div>
+
+      <div class="trip-info">
+        <div class="trip-meta">
+          <span>Oceania · Australia</span>
+          <span>Head coach</span>
+        </div>
+
+        <h3>Jake Sullivan</h3>
+
+        <p>
+          Former competitor from Victoria. Jake films every
+          session so you can see exactly what to improve.
+        </p>
+
+        <div class="crew-langs">
+          <span>English</span>
+          <span>Spanish</span>
+          <span>Portuguese</span>
+        </div>
+
+        <div class="trip-foot">
+          <div class="price">14 yrs <small>/ coaching</small></div>
+          <a href="#crewModal" class="text-link crew-detail" data-crew="jake">Meet Jake ↗</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<div class="crew-modal" id="crewModal" role="dialog" aria-modal="true" aria-labelledby="crewName" aria-hidden="true">
+  <div class="crew-modal-content">
+
+    <button class="crew-close" id="crewClose" aria-label="Close profile">×</button>
+
+    <div class="crew-hero" id="crewHero">
+      <img id="crewImage" src="" alt="">
+    </div>
+
+    <div class="crew-modal-info">
+      <span class="crew-modal-meta" id="crewMeta"></span>
+      <h2 id="crewName"></h2>
+      <p id="crewBio"></p>
+      <div class="crew-facts" id="crewFacts"></div>
+      <button id="crewBook" type="button">Close profile ↗</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+  <section class="why" id="why">
+
+    <div class="why-img">
+  <img class="why-imge" src="Photos gen/group.png" alt="Waves at sunset">
+</div>
+
+    <div class="why-copy">
+     <div class="whysub"> 03/ More than a surf lesson</div>
+     <h2>Good waves.<br>Better stories.</h2>
+     <p>
+       We build trips around the things that make surfing unforgettable: local knowledge, new friends, slow mornings and that feeling when you finally catch the wave.
+      </p>
+      <div class="perks">
+         <div class="perk">
+          <strong>
+            01 - Local surf guides
+          </strong>
+          <p>
+           Know the breaks, tides and secret spots with people who live there.
+          </p>
+
+         </div>
+
+         <div class="perk">
+          <strong>
+            02 - Small groups
+          </strong>
+          <p>
+           Travel with a friendly crew, never a crowd.          
+          </p>
+
+         </div>
+
+
+         <div class="perk">
+          <strong>
+            03 -  All levels welcome
+          </strong>
+          <p>
+           Coaching and waves that fit your experience.         
+          </p>
+
+         </div>
+
+
+         <div class="perk">
+          <strong>
+            04 -  Stay & Explore
+          </strong>
+          <p>
+           Good places to stay and time to discover beyond the beach.   
+          </p>
+
+         </div>
+      
+      </div>
+    </div>
+   </section>
+
+
+   
+
+
+<section class="gallery" id="gallery">
+
+  <div class="gallery-header">
+
+    <div class="gallery-title">
+      <div class="sub">
+        04/ Postcards from the coast
+      </div>
+
+      <h2>
+        Life between <br> the waves
+      </h2>
+    </div>
+
+    <div class="slider-controls">
+      <button class="circle-btn" id="prevSlide" aria-label="Previous photos">←</button>
+      <button class="circle-btn" id="nextSlide" aria-label="Next photos">→</button>
+    </div>
+
+  </div>
+
+  <div class="gallery-slider">
+
+    <div class="gallery-track" id="galleryTrack">
+
+      <div class="gallery-slide">
+        <img src="Photos gen/waves.png" alt="Surfing">
+        <div class="gallery-overlay">
+          <span>01 / THE OCEAN</span>
+          <h3>Chasing waves.</h3>
+        </div>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="Photos gen/surfing2.png" alt="Surfers">
+        <div class="gallery-overlay">
+          <span>02 / THE PEOPLE</span>
+          <h3>Better together.</h3>
+        </div>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="Photos gen/trav.png" alt="Surfboards">
+        <div class="gallery-overlay">
+          <span>03 / THE JOURNEY</span>
+          <h3>Made for adventure.</h3>
+        </div>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="Photos gen/trip.png" alt="Coast">
+        <div class="gallery-overlay">
+          <span>04 / THE FREEDOM</span>
+          <h3>Find your flow.</h3>
+        </div>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="Photos gen/friend.png" alt="Surf trip">
+        <div class="gallery-overlay">
+          <span>05 / THE MOMENTS</span>
+          <h3>Stay for sunset.</h3>
+        </div>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="Photos gen/surf.1.jpg" alt="Ocean">
+        <div class="gallery-overlay">
+          <span>06 / THE LIFESTYLE</span>
+          <h3>Live the tide.</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="reviews" id="reviews">
+  <div class="reviews-header">
+    <div class="reviews-title">
+      <div class="sub">05/ Reviews</div>
+      <h2>Good waves.<br>Great words.</h2>
+    </div>
+
+    <div class="reviews-summary">
+      <span class="rating-number">4.7</span>
+      <div>
+        <div class="rating-stars">★★★★★</div>
+        <p>Rated by our surf community</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="reviews-grid">
+
+    <article class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-score">4.9 / 5</span>
+      </div>
+      <p class="review-text">
+        "An unforgettable experience! Great waves, amazing instructors
+        and the best people. I came alone and left with new friends."
+      </p>
+      <div class="review-person">
+        <div class="review-avatar">SL</div>
+        <div>
+          <h3>Sophie Laurent</h3>
+          <span>🇫🇷 France · Beginner trip</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-score">4.8 / 5</span>
+      </div>
+      <p class="review-text">
+        "Everything was perfectly organised. The location was beautiful
+        and every day brought something new. Already planning my next trip!"
+      </p>
+      <div class="review-person">
+        <div class="review-avatar">JM</div>
+        <div>
+          <h3>James Miller</h3>
+          <span>🇬🇧 United Kingdom · Surf & Stay</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★☆</span>
+        <span class="review-score">4.5 / 5</span>
+      </div>
+      <p class="review-text">
+        "A perfect mix of surfing, exploring and relaxing. The team made
+        everyone feel welcome, whatever their level."
+      </p>
+      <div class="review-person">
+        <div class="review-avatar">MC</div>
+        <div>
+          <h3>Matteo Conti</h3>
+          <span>🇮🇹 Italy · Coastal Escape</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-score">4.2 / 5</span>
+      </div>
+      <p class="review-text">
+        "More than just a surf holiday. I loved the atmosphere, the
+        people and discovering new places along the coast."
+      </p>
+      <div class="review-person">
+        <div class="review-avatar">AM</div>
+        <div>
+          <h3>Alex Morgan</h3>
+          <span>🇦🇺 Australia · Surf Adventure</span>
+        </div>
+      </div>
+     </article>
+
+
+
+        
+     <article class="review-card">
+       <div class="review-top">
+         <span class="review-stars">★★★★★</span>
+         <span class="review-score">4.9 / 5  </span>
+       </div>
+        <p class="review-text">
+         "An incredible experience! The surf spots were amazing,
+         the instructors were great and I met some fantastic people."
+       </p>
+         <div class="review-person">
+           <div class="review-avatar">MF</div>
+           <div>
+             <h3>Mateo Fernández</h3>
+               <span>🇦🇷 Argentina · Surf Adventure</span>
+            </div>
+          </div>
+      </article>
+
+      <article class="review-card">
+       <div class="review-top">
+         <span class="review-stars">★★★★★</span>
+         <span class="review-score">4.7 / 5  </span>
+        </div>
+
+         <p class="review-text">
+            "Such a beautiful experience! I loved the atmosphere,
+           the beach and all the people I met along the way."
+          </p>
+          <div class="review-person">
+              <div class="review-avatar">VR</div>
+             <div>
+             <h3>Valentina Restrepo</h3>
+             <span>🇨🇴 Colombia · Coastal Escape</span>
+            </div>
+          </div>
+      </article>
+
+       <article class="review-card">
+         <div class="review-top">
+             <span class="review-stars">★★★★★</span>
+             <span class="review-score">4.5 / 5  </span>
+          </div>
+          
+          
+           <p class="review-text">
+             "The perfect combination of surfing, adventure and
+             relaxing. Every day was different and full of good vibes."
+             </p>
+         
+         
+         
+              <div class="review-person">
+                <div class="review-avatar">LO</div>
+                 <div>
+                   <h3>Lucas Oliveira</h3>
+                     <span>🇧🇷 Brazil · Surf & Stay</span>
+                  </div>
+              </div>
+        </article>
+
+
+
+
+        <article class="review-card">
+          <div class="review-top">
+              <span class="review-stars">★★★★★</span>
+               <span class="review-score">4.2 / 5 </span>
+          </div>
+          <p class="review-text">
+            "More than just a surf holiday. I loved discovering
+             new places, meeting new people and enjoying the coast."
+          </p>
+          <div class="review-person">
+           <div class="review-avatar">EW</div>
+           <div>
+             <h3>Emma Wilson</h3>
+             <span>🇺🇸 United States · Surf Adventure</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+  </section>
+
+
+   <section class="shop" id="shop">
+
+     <div class="section-head shop-header">
+
+    <div class="shop-heading">
+      <div class="sub">06 / WAVEROOM STORE</div>
+      <h2>Gear up.<br>Get out there.</h2>
+      <p class="shop-description">
+        Everything you need for your next wave.
+        Discover our collection of surf essentials and crew favourites.
+      </p>
+    </div>
+
+    <button class="cart-toggle" id="cartToggle" aria-label="Open shopping cart">
+      <span>YOUR BAG</span>
+      <span class="cart-icon">↗</span>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+
+  </div>
+
+
+  <div class="shop-toolbar">
+
+    <div class="shop-filters">
+      <button class="filter-btn active" data-filter="all">ALL ITEMS</button>
+      <button class="filter-btn" data-filter="surf">SURF EQUIPMENT</button>
+      <button class="filter-btn" data-filter="clothing">CLOTHING</button>
+      <button class="filter-btn" data-filter="accessories">ACCESSORIES</button>
+    </div>
+
+    <span class="shop-results" id="shopResults">12 PRODUCTS</span>
+
+  </div>
+
+
+  <div class="shop-grid" id="shopGrid">
+
+
+    <article class="shop-card"
+      data-category="surf"
+      data-id="surfboard"
+      data-name="WAVEROOM Surfboard"
+      data-price="390">
+
+      <div class="shop-image">
+        <img src="Phtsshop/surfb.png" alt="WAVEROOM surfboard">
+        <span class="shop-tag">ESSENTIAL</span>
+        <span class="shop-number">01 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">SURF EQUIPMENT</div>
+        <h3>WAVEROOM Surfboard</h3>
+        <p>Designed for smooth rides and everyday adventures.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€390</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="poncho"
+      data-name="Changing Poncho"
+      data-price="65">
+
+      <div class="shop-image">
+        <img src="Phtsshop/poncho.png" alt="Surf changing poncho">
+        <span class="shop-tag">BEST SELLER</span>
+        <span class="shop-number">02 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Changing Poncho</h3>
+        <p>Stay warm and comfortable after every session.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€65</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="clothing"
+      data-id="tshirt"
+      data-name="Wave Club T-shirt"
+      data-price="35">
+
+      <div class="shop-image">
+        <img src="Phtsshop/tshirtsurf.png" alt="WAVEROOM T-shirt">
+        <span class="shop-tag">NEW DROP</span>
+        <span class="shop-number">03 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">CLOTHING</div>
+        <h3>Wave Club T-shirt</h3>
+        <p>Your everyday piece, made for life by the coast.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€35</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="tote"
+      data-name="Coastline Tote Bag"
+      data-price="25">
+
+      <div class="shop-image">
+        <img src="Phtsshop/surftote.png" alt="WAVEROOM tote bag">
+        <span class="shop-tag">CREW FAVOURITE</span>
+        <span class="shop-number">04 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Coastline Tote Bag</h3>
+        <p>Carry your essentials from the beach to the city.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€25</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="surf"
+      data-id="wetsuit"
+      data-name="Coast Wetsuit"
+      data-price="180">
+
+      <div class="shop-image">
+        <img src="Phtsshop/wetsuit.png" alt="Surf wetsuit">
+        <span class="shop-tag">SURF ESSENTIAL</span>
+        <span class="shop-number">05 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">SURF EQUIPMENT</div>
+        <h3>Coast Wetsuit</h3>
+        <p>Comfort and flexibility for long days in the water.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€180</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="cap"
+      data-name="Sunset Cap"
+      data-price="29">
+
+      <div class="shop-image">
+        <img src="Phtsshop/cap.png" alt="WAVEROOM cap">
+        <span class="shop-tag">NEW</span>
+        <span class="shop-number">06 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Sunset Cap</h3>
+        <p>A lightweight cap for sunny sessions.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€29</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="surf"
+      data-id="leash"
+      data-name="Classic Surf Leash"
+      data-price="35">
+
+      <div class="shop-image">
+        <img src="Phtsshop/leash.png" alt="Surfboard leash">
+        <span class="shop-tag">MUST HAVE</span>
+        <span class="shop-number">07 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">SURF EQUIPMENT</div>
+        <h3>Classic Surf Leash</h3>
+        <p>A reliable everyday essential for your surfboard.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€35</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="bottle"
+      data-name="Ocean Bottle"
+      data-price="32">
+
+      <div class="shop-image">
+        <img src="Phtsshop/bottle.png" alt="Reusable water bottle">
+        <span class="shop-tag">ECO PICK</span>
+        <span class="shop-number">08 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Ocean Bottle</h3>
+        <p>Reusable hydration for every adventure.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€32</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="clothing"
+      data-id="hoodie"
+      data-name="After Surf Hoodie"
+      data-price="75">
+
+      <div class="shop-image">
+        <img src="Phtsshop/hoodie.png" alt="WAVEROOM hoodie">
+        <span class="shop-tag">CREW FAVOURITE</span>
+        <span class="shop-number">09 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">CLOTHING</div>
+        <h3>After Surf Hoodie</h3>
+        <p>Your go-to layer for cool mornings and sunset sessions.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€75</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="sunglasses"
+      data-name="Coast Sunglasses"
+      data-price="45">
+
+      <div class="shop-image">
+        <img src="Phtsshop/surfglasses.png" alt="Surf sunglasses">
+        <span class="shop-tag">SUMMER PICK</span>
+        <span class="shop-number">10 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Coast Sunglasses</h3>
+        <p>Everyday sunglasses for bright coastal days.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€45</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+     <article class="shop-card"
+      data-category="accessories"
+      data-id="towel"
+      data-name="Wave Beach Towel"
+      data-price="40">
+
+      <div class="shop-image">
+        <img src="Phtsshop/surftowel.png" alt="Beach towel">
+        <span class="shop-tag">ESSENTIAL</span>
+        <span class="shop-number">11 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Wave Beach Towel</h3>
+        <p>Soft and lightweight for your next beach day.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€40</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="shop-card"
+      data-category="accessories"
+      data-id="stickers"
+      data-name="Wave Sticker Pack"
+      data-price="12">
+
+      <div class="shop-image">
+        <img src="Phtsshop/sticker.png" alt="WAVEROOM sticker pack">
+        <span class="shop-tag">SMALL FAVOURITE</span>
+        <span class="shop-number">12 / 12</span>
+      </div>
+
+      <div class="shop-info">
+        <div class="shop-category">ACCESSORIES</div>
+        <h3>Wave Sticker Pack</h3>
+        <p>A little piece of WAVEROOM for your board or laptop.</p>
+
+        <div class="shop-bottom">
+          <span class="shop-price">€12</span>
+          <button class="add-cart">ADD TO BAG +</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer"
+  aria-label="Shopping cart"
+  aria-hidden="true">
+
+  <div class="cart-header">
+    <div>
+      <span class="sub">WAVEROOM STORE</span>
+      <h2>Your bag <span id="drawerCount">(0)</span></h2>
+    </div>
+
+    <button class="cart-close" id="cartClose"
+      aria-label="Close cart">×</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty">Your bag is currently empty.</p>
+  </div>
+
+  <div class="cart-footer">
+
+    <div class="cart-subtotal">
+      <span>SUBTOTAL</span>
+      <strong id="cartSubtotal">€0.00</strong>
+    </div>
+
+    <p>Shipping and taxes calculated at checkout.</p>
+
+    <button class="checkout-btn" id="checkoutBtn">
+      CONTINUE TO CHECKOUT ↗
+    </button>
+
+  </div>
+
+</aside>
+
+ 
+  
+<section class="faq" id="FAQ">
+  <div class="faq-container">
+
+    <div class="faq-intro">
+      <span class="faq-kicker">05 / GOT QUESTIONS?</span>
+      <h2>GOOD TO<br>KNOW<span>?</span></h2>
+      <p>Everything you need to know before finding your wave.</p>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item active">
+        <button class="faq-question" aria-expanded="true">
+          <span class="faq-number">01</span>
+          <span>Do I need surfing experience to join?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Not at all! We welcome everyone, from complete beginners to experienced surfers. Our instructors adapt each session to your level so you can enjoy the experience and improve at your own pace.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-number">02</span>
+          <span>What's included in a surf trip?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Our trips include surf lessons, experienced local instructors, equipment, and a carefully selected accommodation option. Each trip is different, so check its details for everything included.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-number">03</span>
+          <span>Can I join a trip on my own?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely! Many of our travellers come solo. WAVEROOM is all about meeting new people, sharing waves and making memories together.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-number">04</span>
+          <span>What should I bring with me?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Bring your swimwear, towel, sunscreen, comfortable clothes and a good attitude. We provide the essential surf equipment, depending on your selected trip.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-number">05</span>
+          <span>What happens if the weather is bad?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Safety always comes first. If weather or sea conditions are unsuitable, our team will look for the best alternative, which may include rescheduling or adjusting the activity.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+   <section class="booking" id="booking">
+
+  <div class="section-head booking-head">
+    <div>
+      <div class="sub">07 / Book your trip</div>
+      <h2>Pick your trip.<br>Pick your days.</h2>
+    </div>
+    <p class="booking-intro">
+      Only dates inside each destination’s surf season can be booked,
+      so every day of your trip has waves.
+    </p>
+  </div>
+
+  <form class="booking-layout" id="bookingForm" novalidate>
+
+    <div class="booking-main">
+
+      <div class="bk-block">
+        <h3 class="bk-label">Choose a trip</h3>
+        <div class="trip-tabs bk-trips" id="bkTrips" role="group" aria-label="Choose a trip"></div>
+        <p class="bk-season" id="bkSeason"></p>
+      </div>
+
+      <div class="bk-block">
+        <h3 class="bk-label">Choose your start date</h3>
+
+        <div class="bk-calendar" id="bkCalendar">
+          <div class="bk-cal-head">
+            <button type="button" class="circle-btn" id="bkPrev" aria-label="Previous month">←</button>
+            <strong id="bkMonthLabel"></strong>
+            <button type="button" class="circle-btn" id="bkNext" aria-label="Next month">→</button>
+          </div>
+
+          <div class="bk-weekdays" aria-hidden="true">
+            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+          </div>
+
+          <div class="bk-days" id="bkDays"></div>
+
+          <div class="bk-legend">
+            <span><i class="lg lg-ok"></i> Available start date</span>
+            <span><i class="lg lg-range"></i> Your trip</span>
+            <span><i class="lg lg-off"></i> Out of season</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bk-block">
+        <h3 class="bk-label">Your details</h3>
+
+        <div class="bk-fields">
+          <label class="bk-field">
+            <span>Full name</span>
+            <input type="text" id="bkName" autocomplete="name" placeholder="Alex Morgan">
+            <em class="bk-error" data-for="bkName"></em>
+          </label>
+
+          <label class="bk-field">
+            <span>Email</span>
+            <input type="email" id="bkEmail" autocomplete="email" placeholder="alex@email.com">
+            <em class="bk-error" data-for="bkEmail"></em>
+          </label>
+
+          <div class="bk-field">
+            <span>Travellers</span>
+            <div class="bk-stepper">
+              <button type="button" id="bkMinus" aria-label="Fewer travellers">−</button>
+              <output id="bkGuests">1</output>
+              <button type="button" id="bkPlus" aria-label="More travellers">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <aside class="bk-summary" aria-live="polite">
+      <h3 class="bk-sum-title">Your trip</h3>
+
+      <dl class="bk-sum-list">
+        <div><dt>Trip</dt><dd id="sumTrip">—</dd></div>
+        <div><dt>Check-in</dt><dd id="sumStart">Pick a date</dd></div>
+        <div><dt>Check-out</dt><dd id="sumEnd">—</dd></div>
+        <div><dt>Travellers</dt><dd id="sumGuests">1</dd></div>
+      </dl>
+
+      <div class="bk-total">
+        <span>Total</span>
+        <strong id="sumTotal">€0</strong>
+      </div>
+
+      <p class="bk-error bk-form-error" id="bkDateError"></p>
+
+      <button type="submit" class="btn bk-submit">Request booking ↗</button>
+      <p class="bk-note">No payment now. We’ll confirm availability by email.</p>
+    </aside>
+
+  </form>
+
+  <div class="bk-success" id="bkSuccess" hidden>
+    <h3>You’re in, <span id="okName"></span>!</h3>
+    <p id="okText"></p>
+    <button type="button" class="btn" id="bkAgain">Book another trip</button>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="footer-main">
+
+    <div class="footer-brand">
+      <a href="#" class="footer-logo">WAVEROOM<span>®</span></a>
+      <p>
+        Find your wave. Find your people.<br>
+        Surf trips made for unforgettable stories.
+      </p>
+
+      <div class="footer-socials">
+        <a href="#" target="_blank">INSTAGRAM ↗</a>
+        <a href="#" target="_blank">TIKTOK ↗</a>
+        <a href="#" target="_blank">YOUTUBE ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-navigation">
+      <span class="footer-label">EXPLORE</span>
+      <a href="#trips">Surf Trips</a>
+      <a href="#Crews">Our Crew</a>
+      <a href="#why">The Experience</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+
+    <div class="footer-navigation">
+      <span class="footer-label">MORE</span>
+      <a href="#shop">Shop</a>
+      <a href="#FAQ">FAQ</a>
+      <a href="#booking">Book a Trip</a>
+      <a href="mailto:hello@waveroom.com">Contact</a>
+    </div>
+
+    <div class="footer-contact">
+      <span class="footer-label">LET'S TALK</span>
+      <a href="mailto:hello@waveroom.com" class="footer-email">
+        hello@waveroom.com ↗
+      </a>
+      <p>Ready for your next adventure?</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 WAVEROOM. ALL RIGHTS RESERVED.</span>
+    <span>MADE FOR THE OCEAN.</span>
+    <a href="#">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+  </div>
+      </div>
+    </section>
+
+   
+        <script src="https://jquery.com" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/jquery-ui.js" integrity="sha512-nF9ZY+o4GTMKGuKfrwYSdqrbG59QLhdJgtXOPiRZ4CkswwdjyTaPn0qvbRoIsih0ZbEKfCN9dU7lhqkIQUdY/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+         <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@7.0.0/dist/vanilla/simpleParallaxVanilla.umd.min.js"></script>
+
+
+         <script src="home.js"></script>
+
+
+
+
+   </main>
+ </body>
+</html>
